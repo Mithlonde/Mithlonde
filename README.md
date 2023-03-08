@@ -18,8 +18,8 @@
 -------->
 
 <h2 class="menu-header" id="main">
-<a href="https://github.com/Mithlonde">~/Main</a>&#xA0;&#xA0;&#xA0;
-<a href="https://github.com/Mithlonde/thm">Writeups</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde">~/Main</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">Writeups</a>&#xA0;&#xA0;&#xA0;
 <!--<a href="https://github.com/Mithlonde/blog">Blog</a>&#xA0;&#xA0;&#xA0;-->
 <!--<a href="https://github.com/Mithlonde/htb">Projects</a>&#xA0;&#xA0;&#xA0;-->
 </h2>
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam.
 - [2023-03-07] TryHackMe - [Git and Crumpets v12](https://github.com/Mithlonde/thm/gitandcrumpets.html) `Gitea RCE,` `DB Exploiting`
 - [2023-03-07] TryHackMe - [Exploiting Log4j](https://github.com/Mithlonde/thm/log4j.html) `log4j,` `Log4shell,` `Java 8,` `CVE-2021-44228`
 
-  └─$ cd <a href="https://github.com/Mithlonde/thm">all-thm-writeups</a>
+  └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">all-thm-writeups</a>
 
 <br />
 
