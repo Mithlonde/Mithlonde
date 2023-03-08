@@ -6,9 +6,11 @@
 </h2>
 
 # 👾 Mithlonde
-└─$ cat all-thm-writeups
+└─$ cat all-thm-writeups.md
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam. Sed vel est nisl. Curabitur commodo, erat eu lacinia ultrices, metus nibh rutrum lorem, in porta purus ligula vel nisi. Proin auctor sagittis enim vitae malesuada. Curabitur sodales enim turpis, id lacinia lorem mollis non. Nulla mollis mattis euismod. Phasellus eleifend sed elit id dignissim. Vestibulum libero elit, vehicula sit amet nunc eget, tristique semper nulla. Praesent nec sodales tellus. Maecenas magna dolor, dignissim dapibus ultrices et, vestibulum et leo. Mauris dapibus mattis velit, quis dignissim erat lacinia a. Fusce eget dolor sed mi porttitor scelerisque sit amet et orci.
+<img src="https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg" alt="TryHackMe Banner">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam. Sed vel est nisl. Curabitur commodo, erat eu lacinia ultrices, metus nibh rutrum lorem, in porta purus ligula vel nisi.
 
 <a href="https://tryhackme.com/p/Mithlonde" rel="nofollow">
   <img src="https://tryhackme-badges.s3.amazonaws.com/Mithlonde.png" alt="Mithlonde's TryHackMe stats">
