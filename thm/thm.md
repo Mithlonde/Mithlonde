@@ -8,7 +8,7 @@
 # 👾 Mithlonde
 └─$ cat all-thm-writeups.md
 
-<img src="https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg" alt="TryHackMe Banner">
+![image](https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam. Sed vel est nisl. Curabitur commodo, erat eu lacinia ultrices, metus nibh rutrum lorem, in porta purus ligula vel nisi.
 
