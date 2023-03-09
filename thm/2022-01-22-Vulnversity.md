@@ -29,9 +29,7 @@
 
 ### Summary 
 
-Vulnversity is a machine that combines reconnaissance, web attack vectors and privilege escalation methods via SUID together.
-
-
+Vulnversity is a beginner-friendly TryHackMe room that covers reconnaissance, web attack vectors and privilege escalation methods via SUID together in one box.
 
 ## Walkthrough:
 
