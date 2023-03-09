@@ -1,5 +1,5 @@
 <h2 class="menu-header" id="main">
-<a href="https://github.com/Mithlonde/Mithlonde">Main</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde">Root</a>&#xA0;&#xA0;&#xA0;
 <a href="https://github.com/Mithlonde/Mithlonde/blob/main/blog/index.md">Blog</a>&#xA0;&#xA0;&#xA0;
 <a href="https://github.com/Mithlonde/Mithlonde/blob/main/projects/index.md">Projects</a>&#xA0;&#xA0;&#xA0;
 <a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">~/Writeups</a>&#xA0;&#xA0;&#xA0;
