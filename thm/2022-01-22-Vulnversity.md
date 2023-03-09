@@ -9,7 +9,15 @@ Tags: #TryHackMe, #CTF, #Linux #PrivEsc #SUID
 
 **Table of Contents:**
 
-__TOC__
+
+TryHackMe CTF Writeup: Vulnversity
++ Summary
+Walkthrough:
+1. Enumeration
+2. Exploitation
+3. Post Exploitation
+4. Conclusion
+References
 
 ## TryHackMe CTF Writeup: Vulnversity
 
@@ -137,6 +145,7 @@ Nevertheless, since we do not have access to the /etc/shadow file and thus lack 
 + **User Flag:**
 
 Moving into the /home directory got us an interesting hash right away.
+
 ![image](images/vulnversity-15.png)
 
 ```bash
@@ -145,6 +154,7 @@ www-data@vulnuniversity:/home/bill$ cat user.txt
 ```
 
 ![image](images/vulnversity-16.png)
+
 Tried cracking the hash, without any positive result. A quick note to self here, that whilst it being a simple Capture the Flag environment, the flag is all that is required in this instance. Trying anything beyond will probably end up being a rabbit hole. Instead, we will look for other ways to escalate privilege and perhaps bypass the requirement of a password.
 
 In the TryHackMe room one of the questions we are required to answer is as following: "On the system, search for all SUID files. What file stands out?" We can assume here, that we should indeed escalate via SUID.
