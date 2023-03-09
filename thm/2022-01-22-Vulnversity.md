@@ -5,11 +5,11 @@ Tags: #TryHackMe, #CTF, #Linux #PrivEsc #SUID
 
 
 
-![[]](images/Pasted image 20220120125642.png)
+![image](images/vulnversity-1.png)
 
 **Table of Contents:**
 
-[TOC]
+__TOC__
 
 ## TryHackMe CTF Writeup: Vulnversity
 
@@ -28,15 +28,15 @@ Vulnversity is a machine that combines reconnaissance, web attack vectors and pr
 + **Nmap:**
 We begin our reconnaissance by running an Nmap scan checking default scripts and to determine the version of the services running.
 
-![[]](images/Pasted image 20220120192917.png)
+![image](images/vulnversity-2.png)
 
 From the above output we can see that ports, **21, 22, 139, 445, 3128**, and **3333** are open with the corresponding services and versions. Additionally, the machine seems to be running on Ubuntu.
 
 We can also see there is an apache web server running on port 3333 called 'Vuln University' we seem to have access to. Using the Wappalizer it confirms both the server and OS.
 
-![[]](images/Pasted image 20220120193958.png)
+![image](images/vulnversity-3.png)
 
-![[]](images/Pasted image 20220120194608.png)
+![image](images/vulnversity-4.png)
 
 + **Gobuster:**
 Time to start gobuster, enumerate the directories and have the output written to a file:
@@ -45,8 +45,8 @@ gobuster dir -u http://10.10.172.125:3333/ -w /usr/share/wordlists/dirbuster/dir
 ```
 
 Which came up with the results as shown below. We have an upload page *(where we could possibly upload an exploit)*, as well as the index of /images *(http://10.10.172.125:3333/images/)* where our uploads will be stored on the web server:
-![[]](images/Pasted image 20220120195016.png)
-![[]](images/Pasted image 20220120195207.png)
+![image](images/vulnversity-5.png)
+![image](images/vulnversity-6.png)
 
 ---
 ### 2. Exploitation
@@ -56,14 +56,15 @@ In order to gain our initial foothold, we need to leverage the ability to upload
 Could not find anything useful regarding to which extension would be blocked and/or allowed in the the source code, thus tried uploading a reverse PHP shell *(download here: https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)* to the server. Unfortunately, this extension seemed to be blocked as well. Meaning there is a Server-Side Filtering we need to bypass.
 
 >With this shell, make sure to change the following to indicate where you want the reverse shell thrown back to:
->![[]](images/Pasted image 20220121073010.png)
+>![image](images/vulnversity-7.png)
+>
 >Port will be 3333 since that's where the web server is, and our TryHackMe tun0 ip address can be confirmed through http://10.10.10.10
 
 To identify which extensions are **not** blocked, we are going to fuzz the upload form. To do this, use the **intruder** function on BurpSuite.
 
 First, let's quickly make a wordlist including the php upload file extensions we wish to fuzz the form with and save them to a tmp.txt file *(https://www.file-extension.org/alphabetical/p)*. We then use the `cut` command to exclude everything but the .extension, save it to php.wordlist.txt and remove the tmp.txt file afterwards. We now have a wordlist we can use with burp.
 
-![[]](images/Pasted image 20220121070701.png)
+![image](images/vulnversity-8.png)
 ```bash
 ┌──(mithlonde💀kali)-[~/ctf/tryhackme/vulnversity]
 └─$ cat tmp.txt | cut -f 1 > php-wordlist.txt && rm tmp.txt
@@ -94,18 +95,20 @@ Now with both our reverse php shell and our .extension worldlist set, we head on
 
 Upload the php-reverse-shell.php again, but this time with BurpSuite intercepting our traffic (I used the BurpSuite native web browser in this instance, thus skipping a different browser its proxy settings) and sent this over to **Intruder**. Click the *"Positions"* tab now, find the filename and *"Add §"* to the extension *(make sure to clear all previously added § symbols first)*. Upload the wordlist and run it.
 
-![[]](images/Pasted image 20220121074759.png)
-![[]](images/Pasted image 20220121080323.png)
+![image](images/vulnversity-9.png)
+![image](images/vulnversity-10.png)
+
 We can see the .phtml extension has a different output.
 
 >[krygeNNN](https://github.com/krygeNNN/phpenumerate/blob/main/php_uploader.py) also uploaded a python script which makes is way faster to do this.
->![[]](images/Pasted image 20220121081410.png)
+>![image](images/vulnversity-11.png)
 >
 >*Source: https://github.com/krygeNNN/phpenumerate/blob/main/php_uploader.py*
 
 All we have to do now is rename our php reverse shell to .phtml `mv php-reverse-shell.php php-reverse-shell.phtml`, upload it again, then run a listener with `nc -lvnp 3333` on our attacker machine and navigate to where our upload has now been stored. At first, I figured this would be the /images page as shown earlier. Considering our upload was not found there, I tried http://10.10.211.165:3333/internal/uploads/php-reverse-shell.phtml instead. This immediately executed the payload and connected back to our netcat listener we had just initialized.
 
-![[]](images/Pasted image 20220121082257.png)
+![image](images/vulnversity-12.png)
+
 We now have low level user access to the web server as www-data.
 
 ---
@@ -120,22 +123,22 @@ Nevertheless, this shell is not stable right now. So let's solve that first so w
 > **Note:** *that if the shell dies, any input in your own terminal will not be visible (as a result of having disabled terminal echo). To fix this, type `reset` and press enter.*
 
 We now have a stable shell and can continue with our privilege escalation:
-![[]](images/Pasted image 20220122181430.png)
+![image](images/vulnversity-13.png)
 
 Doing some initial enumeration to see what permissions we might have, we can quickly figure out that `sudo -l` requires us to provide a password. We do have access to both the /etc/passwd and /etc/group files however, where we see that there is another user aside from root 
-![[]](images/Pasted image 20220122200016.png)
+![image](images/vulnversity-14.png)
 Nevertheless, since we do not have access to the /etc/shadow file and thus lack the password to these accounts, let's see if we can find any interesting files as www-data instead.
 
 + **User Flag:**
 Moving into the /home directory got us an interesting hash right away.
-![[]](images/Pasted image 20220122200825.png)
+![image](images/vulnversity-15.png)
 
 ```bash
 www-data@vulnuniversity:/home/bill$ cat user.txt 
 8bd7992fbe8*********************         
 ```
 
-![[]](images/Pasted image 20220122202535.png)
+![image](images/vulnversity-16.png)
 Tried cracking the hash, without any positive result. A quick note to self here, that whilst it being a simple Capture the Flag environment, the flag is all that is required in this instance. Trying anything beyond will probably end up being a rabbit hole. Instead, we will look for other ways to escalate privilege and perhaps bypass the requirement of a password.
 
 In the TryHackMe room one of the questions we are required to answer is as following: "On the system, search for all SUID files. What file stands out?" We can assume here, that we should indeed escalate via SUID.
@@ -144,10 +147,10 @@ In the TryHackMe room one of the questions we are required to answer is as follo
 + **SUID permission**
 Whilst hunting down all files with SUID permission set with the command `find / -perm -u=s -type f 2>/dev/null`, we end up with an extensive list:
 
-![[]](images/Pasted image 20220122210259.png)
+![image](images/vulnversity-17.png)
 
 And as we can see, the `systemctl` has the SUID bit set: 
-![[]](images/Pasted image 20220122210538.png)
+![image](images/vulnversity-18.png)
 https://gtfobins.github.io/#+suid
 
 
@@ -164,7 +167,7 @@ WantedBy=multi-user.target' > $TF
 /bin/systemctl enable --now $TF
 ```
 
-![[]](images/Pasted image 20220123100922.png)
+![image](images/vulnversity-19.png)
 Here we have the root flag via a simple escalation via SUID without ever requiring a password.
 
 ---
