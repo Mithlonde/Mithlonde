@@ -31,7 +31,11 @@
 
 **`Cyber Security Specialist (Pentester/Researcher/CTF Player)`**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam. Sed vel est nisl. Curabitur commodo, erat eu lacinia ultrices, metus nibh rutrum lorem, in porta purus ligula vel nisi. Proin auctor sagittis enim vitae malesuada. Curabitur sodales enim turpis, id lacinia lorem mollis non. Nulla mollis mattis euismod. Phasellus eleifend sed elit id dignissim. Vestibulum libero elit, vehicula sit amet nunc eget, tristique semper nulla. Praesent nec sodales tellus. Maecenas magna dolor, dignissim dapibus ultrices et, vestibulum et leo. Mauris dapibus mattis velit, quis dignissim erat lacinia a. Fusce eget dolor sed mi porttitor scelerisque sit amet et orci.
+Welcome to my personal cyberspace, where I'm constantly on the hunt for the latest challenges, threats and trends in the field. By day, I strive to outsmart the latest defenses, and by night, I document my exploits on my blog. I'm always eager to share my knowledge and experience with others. My ultimate goal is to provide actionable insights that help companies keep their systems secure.
+
+But don't let my lighthearted approach fool you – I take cyber security very seriously. I believe that everyone should have access to high-quality, educational content that demystifies the world of cyber security. Whether you're a fellow enthusiast or a company looking to bolster your defenses, I'm here to help.
+
+So let's work together to make the intergalactic cyberspace a safer place, one post at a time. From delivering high-quality content to providing valuable insights and practical advice, I'm committed to helping you stay ahead of the latest threats.
 
    <p align="left">
       <a href="https://github.com/Mithlonde?tab=followers">
@@ -48,11 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam.
 
 ### <img src="https://api.iconify.design/simple-icons/tryhackme.svg?color=%23c11111&width=20&height=20"> TryHackMe
 
-- [2023-03-07] TryHackMe - [Committed](https://github.com/Mithlonde/thm/committed.html) `git`
-- [2023-03-07] TryHackMe - [0x41haz](https://github.com/Mithlonde/thm/0x41haz.html) `Reverse engineering,` `Ghidra`
-- [2023-03-07] TryHackMe - [Flatline](https://github.com/Mithlonde/thm/flatline.html) `Freeswitch exploit,` `SeImpersonatePrivilege`
-- [2023-03-07] TryHackMe - [Git and Crumpets v12](https://github.com/Mithlonde/thm/gitandcrumpets.html) `Gitea RCE,` `DB Exploiting`
-- [2023-03-07] TryHackMe - [Exploiting Log4j](https://github.com/Mithlonde/thm/log4j.html) `log4j,` `Log4shell,` `Java 8,` `CVE-2021-44228`
+- [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `PrivEsc` `SUID`
 
   └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">all-thm-writeups</a>
 
