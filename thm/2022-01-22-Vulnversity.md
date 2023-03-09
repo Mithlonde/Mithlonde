@@ -1,23 +1,29 @@
+<h2 class="menu-header" id="main">
+<a href="https://github.com/Mithlonde/Mithlonde">Main</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">Writeups</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/edit/main/thm/2022-01-22-Vulnversity.md">~/Vulnversity</a>&#xA0;&#xA0;&#xA0;
+<!--<a href="https://github.com/Mithlonde/blog">Blog</a>&#xA0;&#xA0;&#xA0;-->
+<!--<a href="https://github.com/Mithlonde/htb">Projects</a>&#xA0;&#xA0;&#xA0;-->
+</h2>
 
-Thursday, 20 January 2022 | Author: Mithlonde  
-Tags: #TryHackMe, #CTF, #Linux #PrivEsc #SUID  
+# 👾 Mithlonde
+└─$ cat Vulnversity.md
+
+`Linux` `PrivEsc` `SUID`<br />
 *https://tryhackme.com/room/vulnversity*
-
-
 
 ![image](images/vulnversity-1.png)
 
-**Table of Contents:**
+###### Table of Contents:
 
-
-TryHackMe CTF Writeup: Vulnversity
-+ Summary
-Walkthrough:
-1. Enumeration
-2. Exploitation
-3. Post Exploitation
-4. Conclusion
-References
+- TryHackMe CTF Writeup: Vulnversity
+  * [Summary](#summary)
+- Walkthrough:
+  * [1. Enumeration](#1-enumeration)
+  * [2. Exploitation](#2-exploitation)
+  * [3. Post Exploitation](#3-post-exploitation)
+  * [4. Conclusion](#4-conclusion)
+  * [References](#references)
 
 ## TryHackMe CTF Writeup: Vulnversity
 
