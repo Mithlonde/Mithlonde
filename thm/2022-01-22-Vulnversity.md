@@ -26,6 +26,7 @@ Vulnversity is a machine that combines reconnaissance, web attack vectors and pr
 <marker style="background-color: purple">**Target IP:** 10.10.172.125</maker>
 
 + **Nmap:**
+
 We begin our reconnaissance by running an Nmap scan checking default scripts and to determine the version of the services running.
 
 ![image](images/vulnversity-2.png)
@@ -39,12 +40,14 @@ We can also see there is an apache web server running on port 3333 called 'Vuln 
 ![image](images/vulnversity-4.png)
 
 + **Gobuster:**
+
 Time to start gobuster, enumerate the directories and have the output written to a file:
 ```bash
 gobuster dir -u http://10.10.172.125:3333/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -z -o gobuster.txt`
 ```
 
 Which came up with the results as shown below. We have an upload page *(where we could possibly upload an exploit)*, as well as the index of /images *(http://10.10.172.125:3333/images/)* where our uploads will be stored on the web server:
+
 ![image](images/vulnversity-5.png)
 ![image](images/vulnversity-6.png)
 
@@ -89,6 +92,7 @@ First, let's quickly make a wordlist including the php upload file extensions we
 ```
 
 + **BurpSuite:**
+
 Now with both our reverse php shell and our .extension worldlist set, we head on with BurpSuite.
 
 <marker style="background-color: purple">**Target IP:** 10.10.211.165</maker> has changed due to reboot of the TryHackMe room.
@@ -123,6 +127,7 @@ Nevertheless, this shell is not stable right now. So let's solve that first so w
 > **Note:** *that if the shell dies, any input in your own terminal will not be visible (as a result of having disabled terminal echo). To fix this, type `reset` and press enter.*
 
 We now have a stable shell and can continue with our privilege escalation:
+
 ![image](images/vulnversity-13.png)
 
 Doing some initial enumeration to see what permissions we might have, we can quickly figure out that `sudo -l` requires us to provide a password. We do have access to both the /etc/passwd and /etc/group files however, where we see that there is another user aside from root 
@@ -130,6 +135,7 @@ Doing some initial enumeration to see what permissions we might have, we can qui
 Nevertheless, since we do not have access to the /etc/shadow file and thus lack the password to these accounts, let's see if we can find any interesting files as www-data instead.
 
 + **User Flag:**
+
 Moving into the /home directory got us an interesting hash right away.
 ![image](images/vulnversity-15.png)
 
@@ -145,16 +151,18 @@ In the TryHackMe room one of the questions we are required to answer is as follo
 
 
 + **SUID permission**
+
 Whilst hunting down all files with SUID permission set with the command `find / -perm -u=s -type f 2>/dev/null`, we end up with an extensive list:
 
 ![image](images/vulnversity-17.png)
 
-And as we can see, the `systemctl` has the SUID bit set: 
+And as we can see, the `systemctl` has the SUID bit set (https://gtfobins.github.io/#+suid):
+
 ![image](images/vulnversity-18.png)
-https://gtfobins.github.io/#+suid
 
 
 + **Root Flag:**
+
 Since acquiring root via privilege escalation is not necessary in this case, we can simply get the root flag by issuing the the `systemctl` SUID command. This command needs to be customized a bit so it will print the /root/root.txt file content and save the output to a file we do have permission to read *(/tmp/output)*. We also need to update its correct path to `/bin/systemctl` since that is where it is stored on the system we are attacking:
 ```bash
 TF=$(mktemp).service
@@ -168,6 +176,7 @@ WantedBy=multi-user.target' > $TF
 ```
 
 ![image](images/vulnversity-19.png)
+
 Here we have the root flag via a simple escalation via SUID without ever requiring a password.
 
 ---
