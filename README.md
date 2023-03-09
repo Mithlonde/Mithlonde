@@ -109,5 +109,5 @@ So let's work together to make the intergalactic cyberspace a safer place, one p
 
 #
 
-![Mithlonde's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithlonde&show_icons=true&theme=dark)
+![Mithlonde's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithlonde&theme=dark)
 <!--https://github.com/anuraghazra/github-readme-stats#demo-->
