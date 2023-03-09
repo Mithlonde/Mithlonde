@@ -7,7 +7,7 @@
 </h2>
 
 # 👾 Mithlonde
-└─$ cat Vulnversity.md
+└─$ cat Writeups/THM/Vulnversity.md
 
 `Linux` `PrivEsc` `SUID`<br />
 *https://tryhackme.com/room/vulnversity*
