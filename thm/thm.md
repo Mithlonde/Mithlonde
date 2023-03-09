@@ -10,7 +10,7 @@
 
 ![image](https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam. Sed vel est nisl. Curabitur commodo, erat eu lacinia ultrices, metus nibh rutrum lorem, in porta purus ligula vel nisi.
+If you're not familiar with TryHackMe, it's a popular platform for learning and practicing cyber security skills through hands-on challenges and realistic scenarios. My writeups provide detailed explanations of the steps I took to complete each challenge, as well as insights and tips that I've learned along the way. Whether you're a beginner or an experienced cyber security enthusiast, my writeups can help you learn new techniques and approaches for solving complex challenges. So join me on this journey of exploring the exciting world of cyber security through TryHackMe!
 
 <a href="https://tryhackme.com/p/Mithlonde" rel="nofollow">
   <img src="https://tryhackme-badges.s3.amazonaws.com/Mithlonde.png" alt="Mithlonde's TryHackMe stats">
@@ -24,8 +24,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in egestas quam.
 
 ### 
 
-- [2023-03-07] TryHackMe - [Committed](https://github.com/Mithlonde/thm/committed.html) `git`
-- [2023-03-07] TryHackMe - [0x41haz](https://github.com/Mithlonde/thm/0x41haz.html) `Reverse engineering,` `Ghidra`
-- [2023-03-07] TryHackMe - [Flatline](https://github.com/Mithlonde/thm/flatline.html) `Freeswitch exploit,` `SeImpersonatePrivilege`
-- [2023-03-07] TryHackMe - [Git and Crumpets v12](https://github.com/Mithlonde/thm/gitandcrumpets.html) `Gitea RCE,` `DB Exploiting`
-- [2023-03-07] TryHackMe - [Exploiting Log4j](https://github.com/Mithlonde/thm/log4j.html) `log4j,` `Log4shell,` `Java 8,` `CVE-2021-44228`
+- [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `PrivEsc` `SUID`
