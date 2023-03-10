@@ -10,7 +10,7 @@
 
 ![image](https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg)
 
-If you're not familiar with TryHackMe, it's a popular platform for learning and practicing cyber security skills through hands-on challenges and realistic scenarios. My writeups provide detailed explanations of the steps I took to complete each challenge, as well as insights and tips that I've learned along the way. Whether you're a beginner or an experienced cyber security enthusiast, my writeups can help you learn new techniques and approaches for solving complex challenges. So join me on this journey of exploring the exciting world of cyber security through TryHackMe!
+If you're not familiar with TryHackMe, it's a popular platform for learning and practicing cyber security skills through hands-on capture the flag challenges. My writeups provide detailed explanations of the steps I took to complete each challenge, as well as insights and tips that I've learned along the way. Whether you're a beginner or an experienced cyber security enthusiast, my writeups can help you learn new techniques and approaches for solving complex scenarios. So join me on this journey of exploring the exciting world of cyber security through TryHackMe!
 
 <a href="https://tryhackme.com/p/Mithlonde" rel="nofollow">
   <img src="https://tryhackme-badges.s3.amazonaws.com/Mithlonde.png" alt="Mithlonde's TryHackMe stats">
