@@ -24,5 +24,5 @@ If you're not familiar with TryHackMe, it's a popular platform for learning and 
 
 ### 
 
-- [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `PrivEsc` `SUID` `CVE-2019-12815`
-- [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `PrivEsc` `SUID`
+- [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `Samba` `PrivEsc` `SUID` `CVE-2019-12815`
+- [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `File Extension Bypass` `PrivEsc` `SUID`
