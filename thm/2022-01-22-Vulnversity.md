@@ -9,7 +9,7 @@
 # 👾 Mithlonde
 └─$ cat Writeups/THM/Vulnversity.md
 
-`Linux` `PrivEsc` `SUID`<br />
+`Linux` `File Extension Bypass` `PrivEsc` `SUID`<br />
 *https://tryhackme.com/room/vulnversity*
 
 ![image](images/vulnversity-1.png)
