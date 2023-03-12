@@ -8,6 +8,7 @@
 - [x] Seperate blog?
 - [ ] Socials
 - [x] Write whoami
+- [ ] Currently "Writeups" menu option links to all-thm-writeups. Create one "Writeups.md" including all platforms?
 -->
 
 <!-- CUSTOMIZE LOGOS HERE------
@@ -52,6 +53,7 @@ So let's work together to make the intergalactic cyberspace a safer place, one p
 
 ### <img src="https://api.iconify.design/simple-icons/tryhackme.svg?color=%23c11111&width=20&height=20"> TryHackMe
 
+##### NOTE: Since I am personally preparing for the OSCP, on most boxes, I will not be using **Metasploit** and take on a manual exploitation approach instead if not both.
 - [2022-05-16] TryHackMe - [Steel Mountain](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-05-16-steel-mountain.md) `Windows` `CVE-2014-6287` `PrivEsc` `UnquotedServicePath`
 - [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `Samba` `PrivEsc` `SUID` `CVE-2019-12815`
 - [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `File Extension Bypass` `PrivEsc` `SUID`
