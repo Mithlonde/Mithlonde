@@ -6,7 +6,7 @@
 </h2>
 
 # 👾 Mithlonde
-└─$ cat all-thm-writeups.md
+└─$ cat all-writeups.md
 
 ![image](https://github.com/Mithlonde/Mithlonde/blob/main/thm/images/banner-thm.jpg)
 
