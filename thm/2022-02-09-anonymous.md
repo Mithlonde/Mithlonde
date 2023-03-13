@@ -52,7 +52,7 @@ sudo nmap -sC -sV -T4 -oN nmap/initial $ip
 -   **-oN**: write output to nmap file
 
 ```
-Nmap scan report for 10.10.119.210
+Nmap scan report for 10.10.117.53
 Host is up (0.052s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT    STATE SERVICE     VERSION
