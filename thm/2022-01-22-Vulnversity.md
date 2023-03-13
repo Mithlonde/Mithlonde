@@ -54,7 +54,7 @@ We can also see there is an apache web server running on port 3333 called 'Vuln 
 + **Gobuster:**
 
 Time to start gobuster, enumerate the directories and have the output written to a file:
-```bash
+```
 gobuster dir -u http://10.10.172.125:3333/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -z -o gobuster.txt`
 ```
 
@@ -80,7 +80,7 @@ To identify which extensions are **not** blocked, we are going to fuzz the uploa
 First, let's quickly make a wordlist including the php upload file extensions we wish to fuzz the form with and save them to a tmp.txt file *(https://www.file-extension.org/alphabetical/p)*. We then use the `cut` command to exclude everything but the .extension, save it to php.wordlist.txt and remove the tmp.txt file afterwards. We now have a wordlist we can use with burp.
 
 ![image](images/vulnversity-8.png)
-```bash
+```
 ┌──(mithlonde💀kali)-[~/ctf/tryhackme/vulnversity]
 └─$ cat tmp.txt | cut -f 1 > php-wordlist.txt && rm tmp.txt
       
@@ -152,7 +152,7 @@ Moving into the /home directory got us an interesting hash right away.
 
 ![image](images/vulnversity-15.png)
 
-```bash
+```
 www-data@vulnuniversity:/home/bill$ cat user.txt 
 8bd7992fbe8*********************         
 ```
@@ -178,7 +178,7 @@ And as we can see, the `systemctl` has the SUID bit set (https://gtfobins.github
 + **Root Flag:**
 
 Since acquiring root via privilege escalation is not necessary in this case, we can simply get the root flag by issuing the the `systemctl` SUID command. This command needs to be customized a bit so it will print the /root/root.txt file content and save the output to a file we do have permission to read *(/tmp/output)*. We also need to update its correct path to `/bin/systemctl` since that is where it is stored on the system we are attacking:
-```bash
+```
 TF=$(mktemp).service
 echo '[Service]
 Type=oneshot
