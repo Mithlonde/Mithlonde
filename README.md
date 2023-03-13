@@ -1,16 +1,3 @@
-<!--
-### TO DO
-- [x] Insert HTB/THM logo emoticon
-- [x] Add HTB/THM latest writeup columns
-- [x] Check if HTB widget is available
-- [x] Add see all writeups option
-- [x] Add seperate HTB/THM landing page
-- [x] Seperate blog?
-- [ ] Socials
-- [x] Write whoami
-- [ ] Currently "Writeups" menu option links to all-thm-writeups. Create one "Writeups.md" including all platforms?
--->
-
 <!-- CUSTOMIZE LOGOS HERE------
 1. https://icon-sets.iconify.design/simple-icons
 2. Select HTML > CSS option and copy content: url
