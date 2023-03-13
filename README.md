@@ -22,7 +22,7 @@
 <a href="https://github.com/Mithlonde/Mithlonde">~/Root</a>&#xA0;&#xA0;&#xA0;
 <a href="https://github.com/Mithlonde/Mithlonde/blob/main/blog/index.md">Blog</a>&#xA0;&#xA0;&#xA0;
 <a href="https://github.com/Mithlonde/Mithlonde/blob/main/projects/index.md">Projects</a>&#xA0;&#xA0;&#xA0;
-<a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">Writeups</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/all-writeups.md">Writeups</a>&#xA0;&#xA0;&#xA0;
 </h2>
 
 ### Hi there 👋
@@ -58,7 +58,7 @@ So let's work together to make the intergalactic cyberspace a safer place, one p
 - [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `Samba` `PrivEsc` `SUID` `CVE-2019-12815`
 - [2022-01-22] TryHackMe - [Vulnversity](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-01-22-Vulnversity.md) `Linux` `File Extension Bypass` `PrivEsc` `SUID`
 
-  └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/thm/thm.md">all-thm-writeups</a>
+  └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/all-writeups.md">all-writeups</a>
 
 <br />
 
@@ -75,7 +75,7 @@ So let's work together to make the intergalactic cyberspace a safer place, one p
 
 - [2023-03-07] HackTheBox - [Committed](https://github.com/Mithlonde/htb/committed.html) `git`
 
-  └─$ cd <a href="https://github.com/Mithlonde/htb">all-htb-writeups</a>
+  └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/all-writeups.md">all-writeups</a>
 
 <br />
 
