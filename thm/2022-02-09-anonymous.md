@@ -103,7 +103,6 @@ Host script results:
 |   FQDN: anonymous
 |_  System time: 2022-02-08T20:49:16+00:00
 ```
-SCREENSHOT HERE
 
 From the above output we can see that ports, **21**, **22**,  **139** and **445** are open. We can see that Anonymous FTP login is allowed, so let's start there.
 
