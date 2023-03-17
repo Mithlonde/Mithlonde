@@ -26,6 +26,7 @@ If you're not familiar with TryHackMe, it's a popular platform for learning and 
 
 ### 
 
+- [2023-01-07] TryHackMe - [Alfred](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-07-alfred.md) `Windows` `Jenkins` `PrivEsc` `TokenImpersonation` `JuicyPotato`
 - [2022-05-16] TryHackMe - [Steel Mountain](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-05-16-steel-mountain.md) `Windows` `CVE-2014-6287` `PrivEsc` `UnquotedServicePath`
 - [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `Samba` `PrivEsc` `SUID` `CVE-2019-12815`
 - [2022-02-09] TryHackMe - [Tomghost](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-02-09-tomghost.md) `Linux` `Apache Tomcat` `CVE-2020-1938` `gpg2john` `Sudo`
