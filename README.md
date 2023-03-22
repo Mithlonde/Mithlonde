@@ -34,6 +34,7 @@ My objective is to provide actionable insights and practical advice that will he
 ### <img src="https://api.iconify.design/simple-icons/tryhackme.svg?color=%23c11111&width=20&height=20"> TryHackMe
 
 ##### NOTE: Since I am personally preparing for the OSCP, on most boxes, I will not be using **Metasploit** and take on a manual exploitation approach instead if not both.
+- [2023-01-21] TryHackMe - [Hackpark](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-21-hackpark.md) `Windows` `BlogEngine.NET` `Hydra` `CVE-2019-6714` `WindowScheduler`
 - [2023-01-07] TryHackMe - [Alfred](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-07-alfred.md) `Windows` `Jenkins` `PrivEsc` `TokenImpersonation` `JuicyPotato`
 - [2022-05-16] TryHackMe - [Steel Mountain](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-05-16-steel-mountain.md) `Windows` `CVE-2014-6287` `PrivEsc` `UnquotedServicePath`
 - [2022-04-25] TryHackMe - [Kenobi](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-04-25-Kenobi.md) `Linux` `Samba` `PrivEsc` `SUID` `CVE-2019-12815`
