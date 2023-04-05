@@ -26,6 +26,7 @@ If you're not familiar with TryHackMe, it's a popular platform for learning and 
 
 ### 
 
+- [2023-03-27] TryHackMe - [Internal](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-03-27-Internal.md) `Linux` `WordPress` `WPScan` `brute-force` `PHPMyAdmin` `Hydra` `SSH Tunneling` `Jenkins`
 - [2023-02-15] TryHackMe - [Skynet](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-02-15-skynet.md) `Linux` `SquirrelMail` `Samba` `CuppaCMS` `RemoteFileInclusion` `CronJobs`
 - [2023-01-21] TryHackMe - [Hackpark](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-21-hackpark.md) `Windows` `BlogEngine.NET` `Hydra` `CVE-2019-6714` `WindowScheduler`
 - [2023-01-07] TryHackMe - [Alfred](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-07-alfred.md) `Windows` `Jenkins` `PrivEsc` `TokenImpersonation` `JuicyPotato`
