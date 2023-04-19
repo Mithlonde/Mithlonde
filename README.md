@@ -36,6 +36,7 @@ My objective is to provide actionable insights and practical advice that will he
 ##### NOTE: Since I am personally preparing for the OSCP, on most boxes, I will not be using **Metasploit** and take on a manual exploitation approach instead if not both.
 - [2023-03-27] TryHackMe - [Internal](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-03-27-Internal.md) `Linux` `WordPress` `WPScan` `brute-force` `PHPMyAdmin` `Hydra` `SSHTunneling` `Jenkins`
 - [2023-02-15] TryHackMe - [Skynet](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-02-15-skynet.md) `Linux` `SquirrelMail` `Samba` `CuppaCMS` `RemoteFileInclusion` `CronJobs`
+- [2023-02-12] TryHackMe - [Gamezone](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-02-12-gamezone.md) `Linux` `SQLi` `John` `SSHTunneling` `Webmin` `SQLMAP` `CVE-2012-2982`
 - [2023-01-21] TryHackMe - [Hackpark](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-21-hackpark.md) `Windows` `BlogEngine.NET` `Hydra` `CVE-2019-6714` `WindowScheduler`
 - [2023-01-07] TryHackMe - [Alfred](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2023-01-07-alfred.md) `Windows` `Jenkins` `PrivEsc` `TokenImpersonation` `JuicyPotato`
 - [2022-05-16] TryHackMe - [Steel Mountain](https://github.com/Mithlonde/Mithlonde/blob/main/thm/2022-05-16-steel-mountain.md) `Windows` `CVE-2014-6287` `PrivEsc` `UnquotedServicePath`
