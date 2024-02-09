@@ -79,10 +79,13 @@ ligolo-ng » `session`
 [Agent : MS01\Administrator@MS01] » INFO[0780] Starting tunnel to MS01\Administrator@MS01
 
 # Back in Kali (if this can resolve it's working):
-`crackmapexec smb 10.10.125.0/24`
-SMB         10.10.125.147   445    MS01             [*] Windows 10.0 Build 19041 x64 (name:MS01) (domain:oscp.exam) (signing:False) (SMBv1:False)
-SMB         10.10.125.146   445    DC01             [*] Windows 10.0 Build 17763 x64 (name:DC01) (domain:oscp.exam) (signing:True) (SMBv1:False)
-SMB         10.10.125.148   445    MS02             [*] Windows 10.0 Build 19041 x64 (name:MS02) (domain:oscp.exam) (signing:False) (SMBv1:False)
+`NetExec smb 10.10.125.0/24`
+SMB         10.10.125.147   445    MS01             [*] Windows 10.0 Build 19041 x64 (name:MS01) (domain:oscp.demo) (signing:False) (SMBv1:False)
+SMB         10.10.125.146   445    DC01             [*] Windows 10.0 Build 17763 x64 (name:DC01) (domain:oscp.demo) (signing:True) (SMBv1:False)
+SMB         10.10.125.148   445    MS02             [*] Windows 10.0 Build 19041 x64 (name:MS02) (domain:oscp.demo) (signing:False) (SMBv1:False)
+
+From our kali, we can now also scan for the top ports using the following command:
+nmap -sT --top-ports=100 -T4 -Pn -PE $IP
 
 # Add listerener
 # Back in Proxy
