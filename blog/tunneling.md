@@ -14,9 +14,9 @@
 In this video, Gonski Cyber shows how you can use Ligolo-NG to setup simple network pivots for use in your OSCP prep and use Ligolo's handy listener functionality to transfer files and receive reverse shell connections from machines on internal networks! 
 - https://www.youtube.com/watch?v=DM1B8S80EvQ
 
-I think by design. In order to get revshell connections and initiate file transfers from MS02 (when you are pivoting thru MS01) it requires a reverse port forward. Ligolo-NG has great functionality that makes this really easy.
+I think by design. In order to get revshell connections and initiate file transfers from MS02 (when you are pivoting through MS01) it requires a reverse port forward. Ligolo-NG has great functionality that makes this really easy.
 
-So if we find ourselves in a situation where we have a pivot setup to the internal network, but the internal machine cant send back a shell to our attack box, we can use ligolo's TCP listeners to get our shell back on our kali box!
+So if we find ourselves in a situation where we have a pivot setup to the internal network, but the internal machine can't send back a shell to our attack box, we can use ligolo's TCP listeners to get our shell back on our kali box!
 
 Here's a excerpt from my notes on this.
 
