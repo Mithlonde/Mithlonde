@@ -18,7 +18,7 @@ I think by design. In order to get revshell connections and initiate file transf
 
 So if we find ourselves in a situation where we have a pivot setup to the internal network, but the internal machine can't send back a shell to our attack box, we can use ligolo's TCP listeners to get our shell back on our kali box!
 
-Here's a excerpt from my notes on this.
+Here's an excerpt from my notes on this.
 
 We need:
 - Ligolo proxy file for our kali machine
