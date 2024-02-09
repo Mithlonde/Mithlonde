@@ -2,13 +2,15 @@ Ligolo-ng Proxy
 
 [Kali] <----> [**Pivot Box/MS01**] <----> [Internal Boxes/MS02/DC01]
 
-I think by design. In order to get revshell connections and initiate file transfers from MS02 (when you are pivoting thru MS01) it requires a reverse port forward 
-Ligolo-NG has great functionality that makes this really easy.
-Here's a excerpt from my notes on this
+# Network Pivoting with Ligolo-NG:
+In this video, Gonski Cyber shows how you can use Ligolo-NG to setup simple network pivots for use in your OSCP prep and use Ligolo's handy listener functionality to transfer files and receive reverse shell connections from machines on internal networks! 
+- https://www.youtube.com/watch?v=DM1B8S80EvQ
+
+I think by design. In order to get revshell connections and initiate file transfers from MS02 (when you are pivoting thru MS01) it requires a reverse port forward. Ligolo-NG has great functionality that makes this really easy.
+
 So if we find ourselves in a situation where we have a pivot setup to the internal network, but the internal machine cant send back a shell to our attack box, we can use ligolo's TCP listeners to get our shell back on our kali box!
 
-# Network Pivoting with Ligolo-NG: 
-https://www.youtube.com/watch?v=DM1B8S80EvQ
+Here's a excerpt from my notes on this.
 
 We need:
 - Ligolo proxy file for our kali machine
