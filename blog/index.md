@@ -20,4 +20,4 @@ ________  ________  _____ ______   ___  ________   ________          ________  _
 ```
 
 ##### NOTE: This page is still in progress, more coming soon.
-- [2024-02-09] Ligolo - [Tunneling](https://github.com//Mithlonde/Mithlonde/blob/main/tunneling.md) `Ligolo` `Tunneling` `OSCP`
+- [2024-02-09] Ligolo - [Tunneling](https://github.com/Mithlonde/Mithlonde/blob/main/blog/tunneling.md) `Ligolo` `Tunneling` `OSCP`
