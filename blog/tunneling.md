@@ -11,8 +11,8 @@ So if we find ourselves in a situation where we have a pivot setup to the intern
 https://www.youtube.com/watch?v=DM1B8S80EvQ
 
 We need:
-- Linogo proxy file for our kali machine
-- Linogo agent file for our pivot/jump host (download this to target)
+- Ligolo proxy file for our kali machine
+- Ligolo agent file for our pivot/jump host (download this to target)
 -> Precompiled binaries (Windows/Linux/macOS) are available on the [Release page](https://github.com/nicocha30/ligolo-ng/releases).
 use `tar xzg file.tar.gz`
 
