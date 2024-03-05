@@ -40,7 +40,7 @@ My objective is to provide actionable insights and practical advice that will he
 <br />
 
 <!--BLOG COLUMN-->
-
+---
 ## <img src="https://cdn-icons-png.flaticon.com/128/9360/9360595.png" width="25" height="25"/> Latest Blog Posts
 
 - [2024-02-09] Ligolo - [Tunneling](https://github.com/Mithlonde/Mithlonde/blob/main/blog/tunneling.md) `Ligolo` `Tunneling` `OSCP`
@@ -50,7 +50,7 @@ My objective is to provide actionable insights and practical advice that will he
 <br />
 
 <!--THM COLUMN-->
-
+---
 ## <img src="https://cdn-icons-png.flaticon.com/128/1313/1313837.png" width="25" height="25"/> Latest Writeups 
 
 ### <img src="https://api.iconify.design/simple-icons/tryhackme.svg?color=%23c11111&width=20&height=20"> TryHackMe
