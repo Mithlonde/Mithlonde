@@ -54,13 +54,25 @@ My objective is to provide actionable insights and practical advice that will he
   <img src="https://tryhackme-badges.s3.amazonaws.com/Mithlonde.png" alt="Mithlonde's TryHackMe stats">
 </a>
 
-
 <!--HTB COLUMN-->
 
 <!--BLOG COLUMN-->
 
+## <img src="https://cdn-icons-png.flaticon.com/128/9360/9360595.png" width="25" height="25"/> Latest Blog Posts
+
+- [2024-02-09] Ligolo - [Tunneling](https://github.com/Mithlonde/Mithlonde/blob/main/blog/tunneling.md) `Ligolo` `Tunneling` `OSCP`
+  
+   └─$ cd <a href="https://github.com/Mithlonde/blog">all-blog-posts</a>
+     
 <!--PROJECTS COLUMN-->
 
+## <img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" width="25" height="25"/> Latest Projects
+
+- [2024-03-04] Privesc Hunter [linHunter/winHunter](https://github.com/Mithlonde/Hunter) `Bash` `PowerShell`
+- [2023-12-30] Pre-Pentest Directory Automator [FileForge](https://github.com/Mithlonde/FileForge) `Python`
+- [2023-03-27] Network Scanner [Nmapper](https://github.com/Mithlonde/Nmapper) `Zsh`
+
+  └─$ cd <a href="https://github.com/Mithlonde/projects">all-projects</a>
 #
 
 ![Mithlonde's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithlonde&theme=dark)
