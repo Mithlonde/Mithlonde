@@ -54,6 +54,8 @@ My objective is to provide actionable insights and practical advice that will he
   <img src="https://tryhackme-badges.s3.amazonaws.com/Mithlonde.png" alt="Mithlonde's TryHackMe stats">
 </a>
 
+---
+
 <!--HTB COLUMN-->
 
 <!--BLOG COLUMN-->
