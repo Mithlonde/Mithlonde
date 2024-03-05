@@ -25,7 +25,7 @@ My objective is to provide actionable insights and practical advice that will he
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Mithlonde?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
    </p>
 
----
+#
 
 <!--PROJECTS COLUMN-->
 
@@ -37,7 +37,7 @@ My objective is to provide actionable insights and practical advice that will he
 
   └─$ cd <a href="https://github.com/Mithlonde/projects">all-projects</a>
 
----
+#
 
 <!--BLOG COLUMN-->
 
