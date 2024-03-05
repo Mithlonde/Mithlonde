@@ -35,7 +35,7 @@ My objective is to provide actionable insights and practical advice that will he
 - [2023-12-30] Pre-Pentest Directory Automator [FileForge](https://github.com/Mithlonde/FileForge) `Python`
 - [2023-03-27] Network Scanner [Nmapper](https://github.com/Mithlonde/Nmapper) `Zsh`
 
-  └─$ cd <a href="https://github.com/Mithlonde/projects">all-projects</a>
+  └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/projects/index.md">all-projects</a>
 
 <br />
 
@@ -45,7 +45,7 @@ My objective is to provide actionable insights and practical advice that will he
 
 - [2024-02-09] Ligolo - [Tunneling](https://github.com/Mithlonde/Mithlonde/blob/main/blog/tunneling.md) `Ligolo` `Tunneling` `OSCP`
   
-   └─$ cd <a href="https://github.com/Mithlonde/blog">all-blog-posts</a>
+   └─$ cd <a href="https://github.com/Mithlonde/Mithlonde/blob/main/blog/index.md">all-blog-posts</a>
 
 <br />
 
