@@ -10,9 +10,9 @@
 # 👾 Mithlonde
 └─$ cat whoami.md
 
-**`Cyber Security Specialist (Pentester/Researcher/CTF Player)`**
+**`Ethical Hacker/Security Researcher`**
 
-Greetings, and welcome to my cyberspace. As an aspiring professional pentester, I am committed to continuously honing my skills to stay ahead of the latest challenges, threats, and trends in the field of cyber security. Through my experiences, I have come to realize the importance of sharing knowledge and experience with others to enhance the security of systems and infrastructure.
+Greetings, and welcome to my cyberspace. I am committed to continuously honing my skills to stay ahead of the latest challenges, threats, and trends in the field of cyber security. Through my experiences, I have come to realize the importance of sharing knowledge and experience with others to enhance the security of systems and infrastructure.
 
 While I may approach the subject with a lighthearted demeanor, I take cyber security with utmost seriousness. It is my belief that high-quality, educational content should be accessible to everyone, whether you are an enthusiast or a business seeking to improve your defenses.
 
