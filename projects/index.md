@@ -20,6 +20,6 @@ ________  ________  _____ ______   ___  ________   ________          ________  _
 ```
 
 ##### NOTE: This page is still in progress, more coming soon.
-- [2024-03-04] Privesc Hunter [linHunter/winHunter](https://github.com/Mithlonde/Hunter) `Bash` `PowerShell`
+- [2024-03-07] Linux/Windows PrivEsc Hunter [linHunter/winHunter](https://github.com/Mithlonde/Hunter) `Bash` `PowerShell`
+- [2024-03-06] Network Reconnaissance Automator [Nmapper](https://github.com/Mithlonde/Nmapper) `Zsh`
 - [2023-12-30] Pre-Pentest Directory Automator [FileForge](https://github.com/Mithlonde/FileForge) `Python`
-- [2023-03-27] Network Scanner [Nmapper](https://github.com/Mithlonde/Nmapper) `Zsh`
