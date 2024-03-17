@@ -7,7 +7,7 @@
 
 # 👾 Mithlonde
 └─$ cat blog.md
-![Ls8iHC](https://github.com/Mithlonde/Mithlonde/assets/88001670/d35a8e66-4c8d-4092-8075-d2760933efed)
+![1500x500](https://github.com/Mithlonde/Mithlonde/assets/88001670/2298599e-96d8-46f1-92f2-4824c1ceb57c)
 
 ##### NOTE: This page is still in progress, more coming soon.
 - [2024-02-09] Ligolo - [Tunneling](https://github.com/Mithlonde/Mithlonde/blob/main/blog/tunneling.md) `Ligolo` `Tunneling` `OSCP`
