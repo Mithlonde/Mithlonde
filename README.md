@@ -81,5 +81,4 @@ My objective is to provide actionable insights and practical advice that will he
 
 #
 
-![Mithlonde's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mithlonde&theme=dark)
-<!--https://github.com/anuraghazra/github-readme-stats#demo-->
+![Mithlonde's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mithlonde&layout=compact&theme=dark)
